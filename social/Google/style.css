@@ -1,0 +1,99 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.container {
+  display: flex;
+  flex-flow: column;
+  width: 500px;
+  margin: auto; 
+}
+
+.logo-block  {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+}
+
+.title-block, .signin-block {
+  text-align: center;
+  margin: auto;
+  height: auto; 
+}
+  
+.login-title { 
+  color: #555;
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+  }
+
+.login-text{
+  color: #555;
+  font-size: 18px;
+  font-weight: 400;
+}  
+ 
+.account-wall {
+   background-color: lightgrey;
+   width: 350px;
+   height: auto;
+   background-color: #f7f7f7;
+   -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+   -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img{
+    width: 96px;
+    height: 96px;
+    margin-top: 30px;
+    margin-bottom:25px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.form-signin .form-control {
+    width: 300px;
+    font-size: 16px;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin input {
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+#button1 {
+    width: 40%;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    border: 1px solid transparent;
+}
+
+.new-account {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #337ab7;
+}
