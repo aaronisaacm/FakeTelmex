@@ -1,3 +1,3 @@
 function openPopUp(url){
-    window.open('/telmex/social' + url + '/index.php', '_self'); 
+    window.open('/FakeTelmex/social' + url + '/index.php', '_self'); 
 }
