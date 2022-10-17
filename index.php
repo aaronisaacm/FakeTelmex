@@ -39,10 +39,10 @@
       </div>
       <div class="d-flex justify-content-center">
         <a id="facebook-button" class="btn btn-block btn-social btn-facebook" onclick="openPopUp('/facebook')">
-          <img src="/assets/img/btn-fb.svg" alt="Facebook">
+          <img src="/telmex/assets/img/btn-fb.svg" alt="Facebook">
         </a>
         <a id="facebook-button" class="btn btn-block btn-social btn-google" onclick="openPopUp('/google')">
-          <img src="/assets/img/btn-google.svg" alt="google">
+          <img src="/telmex/assets/img/btn-google.svg" alt="google">
         </a>
       </div>
       <div class="p-2">Flex item 3</div>

