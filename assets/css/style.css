@@ -21,3 +21,8 @@
 .btn-google{
    margin-top: 0 !important;
 }
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }

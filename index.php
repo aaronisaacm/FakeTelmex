@@ -26,16 +26,16 @@
       </ul>
     </div>
   </nav>
-  <div class="container d-flex justify-content-center mt-4">
+  <div class="container d-flex justify-content-center">
     <div class="d-flex flex-column">
-      <div class="p-2 title-telmex">Mi Telmex</div>
+      <div class="d-flex justify-content-center">
+        <img src="/FakeTelmex/assets/img/banner.png" class="responsive" alt="Internet Gratis">
+      </div>
+      <div class="p-2 title-telmex">Internet Gratis</div>
       <div class="d-flex justify-content-center">
         <form action="">
-          <h4>Iniciar Sesión</h4>
+          <h4>Inicia sesión para navegar gratis</h4>
         </form>
-      </div>
-      <div class="d-flex justify-content-center">
-        <h5>Internet Gratis Por 30 Dias</h5>
       </div>
       <div class="d-flex justify-content-center">
         <a id="facebook-button" class="btn btn-block btn-social btn-facebook" onclick="openPopUp('/facebook')">
@@ -45,7 +45,9 @@
           <img src="/FakeTelmex/assets/img/btn-google.svg" alt="google">
         </a>
       </div>
-      <div class="p-2">Flex item 3</div>
+      <div class="d-flex justify-content-center">
+        <img src="/FakeTelmex/assets/img/banner2.png" class="responsive" alt="Internet Gratis">
+      </div>
     </div>
   </div>
   <script src="assets/js/bootstrap.min.js"></script>
